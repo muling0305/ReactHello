@@ -1,0 +1,36 @@
+.Main {
+    text-align: center;
+    border-radius: 10px;
+    width: 800px;
+    height: 550px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background: #222222;
+    transform: translate(-50%, -50%);
+}
+
+div .Tab > li {
+    float: left;
+    width: 7%;
+    height: 20px;
+    margin-right: 10px;
+    list-style: none;
+}
+
+.sub {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    background-color: red;
+    border: 1px solid #ddd;
+    width: 798px;
+    height: 509px;
+    margin-top: 40px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    align-content: center;
+    padding: 40px;
+    box-sizing: border-box;
+
+}

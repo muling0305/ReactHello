@@ -1,0 +1,63 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+}
+
+.App-header {
+    background-color: #222;
+    height: 150px;
+    padding: 20px;
+    color: white;
+}
+
+.App-title {
+    font-size: 1.5em;
+}
+
+.App-intro {
+    font-size: large;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+div .nap {
+    list-style: none;
+    overflow: hidden;
+}
+
+div .nap > li {
+    float: left;
+    width: 6%;
+    height: 20px;
+    margin-right: 10px;
+    background-color: aquamarine;
+}
+
+.father {
+    position: relative;
+}
+
+.children > img {
+    display: block;
+}
+
+.children {
+    position: absolute;
+    width: 10%;
+    margin-left: 10px;
+}
+
+.buttonStyle {
+    border:1px solid #ddd;
+}
