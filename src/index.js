@@ -1,11 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import registerServiceWorker from './registerServiceWorker';
-import WeStormApp from "./WeStormApp";
-import TabsDemo from "./TabsDemo";
-import CustomButton from "./CustomButton";
+import Day from "./Day";
+import TestSome from "./TestSome";
 
-ReactDOM.render(<CustomButton touchMe={(num)=>{alert(num)}} text={"hahahahhahahahn"} />, document.getElementById('root'));
+
+ReactDOM.render(<Day/>, document.getElementById('root'));
 registerServiceWorker();
