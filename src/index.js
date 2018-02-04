@@ -4,7 +4,8 @@ import './index.css';
 import registerServiceWorker from './registerServiceWorker';
 import Day from "./Day";
 import TestSome from "./TestSome";
+import Page from "./Excise";
 
 
-ReactDOM.render(<Day/>, document.getElementById('root'));
+ReactDOM.render(<Page/>, document.getElementById('root'));
 registerServiceWorker();
